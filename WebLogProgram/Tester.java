@@ -24,4 +24,20 @@ public class Tester
         la.readFile("C:/Users/DELL/Downloads/WebLogProgram/short-test_log");
         la.printAll();
     }
+    
+    public void testUniqueIps()
+    {
+        LogAnalyzer la = new LogAnalyzer();
+        la.readFile("C:/Users/DELL/Downloads/WebLogProgram/short-test_log");
+        int cnt = la.countUniqueIPs();
+        System.out.println(cnt);
+    }
+    
+    public void testuniqueIPVisitsOnDay()
+    {
+        LogAnalyzer la = new LogAnalyzer();
+        la.readFile("C:/Users/DELL/Downloads/WebLogProgram/short-test_log");
+        la.uniqueIPVisitsOnDay("Sep 30");
+        System.out.println("done");
+    }
 }

@@ -2,8 +2,12 @@
 comment0.target=LogAnalyzer
 comment1.params=
 comment1.target=LogAnalyzer()
-comment2.params=filename
-comment2.target=void\ readFile(java.lang.String)
-comment3.params=
-comment3.target=void\ printAll()
-numComments=4
+comment2.params=
+comment2.target=int\ countUniqueIPs()
+comment3.params=filename
+comment3.target=void\ readFile(java.lang.String)
+comment4.params=
+comment4.target=void\ printAll()
+comment5.params=day
+comment5.target=void\ uniqueIPVisitsOnDay(java.lang.String)
+numComments=6
